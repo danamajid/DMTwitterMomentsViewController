@@ -9,7 +9,7 @@ Features:
  - Sliding segmented view
  - Auto layout (with Cartography)
 
-![Demo DMTwitterMomentsViewController](https://raw.github.com/danamajid/DMTwitterMomentsViewController/master/demo.gif)
+![Demo DMTwitterMomentsViewController](https://github.com/danamajid/DMTwitterMomentsViewController/raw/master/demo.gif)
 
 [Hi-res demo (mov)](https://raw.github.com/danamajid/DMTwitterMomentsViewController/master/demo.mov)
 
