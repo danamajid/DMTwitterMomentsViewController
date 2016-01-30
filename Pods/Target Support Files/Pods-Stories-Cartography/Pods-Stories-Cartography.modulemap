@@ -1,0 +1,6 @@
+framework module Cartography {
+  umbrella header "Pods-Stories-Cartography-umbrella.h"
+
+  export *
+  module * { export * }
+}

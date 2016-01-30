@@ -1,0 +1,13 @@
+PODS:
+  - Cartography (0.6.0)
+  - ZFDragableModalTransition (0.5.1)
+
+DEPENDENCIES:
+  - Cartography (~> 0.6.0)
+  - ZFDragableModalTransition
+
+SPEC CHECKSUMS:
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  ZFDragableModalTransition: 048189eda437f91944ce6d5151618b8bf770196d
+
+COCOAPODS: 0.37.2
