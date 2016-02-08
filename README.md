@@ -17,7 +17,7 @@ Features:
 
 **Dana Majid**
 
-* Contact: [hi@danamajid.com.com][1]
+* Contact: [hi@danamajid.com][1]
 * Twitter: [http://twitter.com/dnmjd][2] 
 
   [1]: mailto:hi@danamajid.com
