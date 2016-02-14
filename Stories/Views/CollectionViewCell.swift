@@ -91,11 +91,9 @@ import Cartography
     func sectionTableScrollViewDidScroll(scrollView: UIScrollView) {
         sectionDelegate?.sectionTableScrollViewDidScroll(scrollView)
         offsetY = scrollView.contentOffset.y
-        print("sectionTableScrollViewDidScroll")
         
         updateScrollIndicator(scrollView)
         updateHeaderViewConstraints()
-        //print("delegate is called SectionTableViewDelegate inside CollectionCellView")
     }
     
     func updateScrollIndicator(scrollView: UIScrollView) {
@@ -148,14 +146,12 @@ import Cartography
     }
     
     override func preferredLayoutAttributesFittingAttributes(layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
-        print("prefferedLayoutAttr", offsetY)
         updateHeaderViewConstraints()
         return layoutAttributes
     }
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        print("prepare for reuse")
     }
     
     

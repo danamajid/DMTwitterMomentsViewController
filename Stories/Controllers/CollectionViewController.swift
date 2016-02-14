@@ -219,10 +219,8 @@ class CollectionViewController: UIViewController, UIScrollViewDelegate, UICollec
         
         let speedOffset:CGFloat = 0.5
         let mostOffsetYPossible = -customNavBarHeight!.constant * speedOffset
-        print(customNavBarTop?.constant, previousCustomNavBarTop?.constant)
         
         if (customNavBarTop?.constant != nil) {
-            print("test")
             customNavBarTop!.constant = customNavBarTop!.constant + (-customNavBarTop!.constant) * (page % 1) * 0.5
             customTabBar.alpha = ((page % 1) == 0 ? 1 : (page % 1))
         } else {

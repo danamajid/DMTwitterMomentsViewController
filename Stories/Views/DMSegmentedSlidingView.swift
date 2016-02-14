@@ -42,7 +42,7 @@ protocol DMSegmentedSlidingViewDelegate: class {
     }
     
     func didTapItem(sender: UIButton!) {
-        print("did tap item!!!")
+
     }
     
     
@@ -85,7 +85,6 @@ protocol DMSegmentedSlidingViewDelegate: class {
                     
                     let button = UIButton(frame: CGRectMake(leftX, 0, buttonWidth, buttonHeight))
                     
-                    //button.addTarget(self, action: Selector("didTapItem:"), forControlEvents: UIControlEvents.TouchUpInside)
                     button.setTitle(item.title.uppercaseString, forState: UIControlState.Normal)
                     button.setTitleColor(UIColor.redColor(), forState: .Selected)
                     button.titleLabel?.font = UIFont.boldSystemFontOfSize(12.0)
