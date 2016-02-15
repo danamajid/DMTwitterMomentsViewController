@@ -32,8 +32,8 @@ class SectionDummyData {
         var dummyItems:[SectionItem] = []
         
         let weeknd = SectionItem(
-            title: "Can't feel my face when I'm with you. No shit.",
-            caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit semper nibh, eu interdum eros sollicitudin eu. Nam condimentum.",
+            title: "Learning is cool, but knowing is better",
+            caption: "Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.",
             category: "Mind blowing",
             mainImage: UIImage(named: "weeknd"),
             dataSource: TopicDummyData().getData(0)
@@ -41,22 +41,22 @@ class SectionDummyData {
         
         let meekdrake = SectionItem(
             title: "Meek Mill vs. Drake: A Full Timeline of the Rap Beef",
-            caption: "Late Tuesday, Meek Mill took to Twitter to call out Drake for not writing his own raps, claiming Drake didn't promote Meek Mill's album.",
+            caption: "Don’t ever play yourself. Surround yourself with angels. Lion! Give thanks to the most high.",
             category: "Rap beef",
             mainImage: UIImage(named: "meekvsdrake"),
             dataSource: TopicDummyData().getData(0)
         )
         
         let pac = SectionItem(
-            title: "It's the game of life. Do I win or do I lose?",
-            caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit semper nibh, eu interdum eros sollicitudin eu. Nam condimentum.",
+            title: "They will try to close the door on you, just open it.",
+            caption: "Celebrate success right, the only way, apple. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm.",
             category: "Mind blowing",
             mainImage: UIImage(named: "pac"),
             dataSource: TopicDummyData().getData(0)
         )
         
         let drake = SectionItem(
-            title: "Started from the bottom now we here",
+            title: "The key is to drink coconut, fresh coconut, trust me.",
             caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit semper nibh, eu interdum eros sollicitudin eu. Nam condimentum.",
             category: "Mind blowing",
             mainImage: UIImage(named: "drake"),
@@ -64,40 +64,40 @@ class SectionDummyData {
         )
         
         let dre = SectionItem(
-            title: "The Next Episode",
-            caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit semper nibh, eu interdum eros sollicitudin eu. Nam condimentum.",
+            title: "The key is to have every key, the key to open every door.",
+            caption: "The other day the grass was brown, now it’s green because I ain’t give up. Never surrender.",
             category: "Mind blowing",
             mainImage: UIImage(named: "dre"),
             dataSource: TopicDummyData().getData(0)
         )
         
         let kanye = SectionItem(
-            title: "The Weeknd",
-            caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit semper nibh, eu interdum eros sollicitudin eu. Nam condimentum.",
+            title: "The ladies always say Khaled you smell good, I use no cologne",
+            caption: "Bless up. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast.",
             category: "Mind blowing",
             mainImage: UIImage(named: "kanye"),
             dataSource: TopicDummyData().getData(0)
         )
         
         let snoop = SectionItem(
-            title: "Lodie dodie, we like to party. We don't bother nobody.",
-            caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit semper nibh, eu interdum eros sollicitudin eu. Nam condimentum.",
+            title: "Stay focused.",
+            caption: "Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. In life there will be road blocks but we will over come it.",
             category: "Mind blowing",
             mainImage: UIImage(named: "snoop"),
             dataSource: TopicDummyData().getData(0)
         )
         
         let legend = SectionItem(
-            title: "Save room for my love. Please?",
-            caption: "Hello world",
+            title: "I’m keeping it real with you.",
+            caption: " In life there will be road blocks but we will over come it. They never said winning was easy.",
             category: "Mind blowing",
             mainImage: UIImage(named: "legend"),
             dataSource: TopicDummyData().getData(0)
         )
         
         let couples = SectionItem(
-            title: "Another day another dawn, come on come on",
-            caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit semper nibh, eu interdum eros sollicitudin eu. Nam condimentum.",
+            title: " Look at the sunset, life is amazing.",
+            caption: " I’m keeping it real with you, so what you going do is have lunch.",
             category: "Mind blowing",
             mainImage: UIImage(named: "Couples"),
             dataSource: TopicDummyData().getData(0)
